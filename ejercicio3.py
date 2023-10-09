@@ -2,13 +2,19 @@
 ancho = 17
 alto = 12.0
 
+resultado1 = ancho / 2
+print("1. Resultado:", resultado1)
+print("Tipo de datos:", type(resultado1))
 
-print(type(ancho))
-print(type(alto))
-print(f'1. {type(ancho / 2)}')
+resultado2 = ancho // 2
+print("2. Resultado:", resultado2)
+print("Tipo de datos:", type(resultado2))
 
-print(f'2. {type(ancho // 2)}')
 
-print(f'3. {type(alto / 3)}')
+resultado3 = alto / 3
+print("3. Resultado:", resultado3)
+print("Tipo de datos:", type(resultado3))
 
-print(f'4. {type(1 + 2 *5)}')
+resultado4 = 1 + 2 * 5
+print("4. Resultado:", resultado4)
+print("Tipo de datos:", type(resultado4))

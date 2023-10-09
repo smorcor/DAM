@@ -1,8 +1,8 @@
 
 coniva = float(input("Importe final: "))
 
-iva = coniva / 1.1
-siniva = coniva - iva
+iva = coniva * (10/100)
+siniva = coniva - (iva)
 
 print("As pagado ", iva , "de IVA")
 
