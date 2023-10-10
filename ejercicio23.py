@@ -1,12 +1,7 @@
 correo = input("Escribe tu correo: ")
-c = correo.split("@")
+c = correo.split("@")[0]
+nuevo = c + "@ceu.es"
 
-if len(c) == 2:
-    usuario, dominio = c 
-    nuevo = usuario + "@ceu.es"
-    print(nuevo)
-else:
-        print("ERROR")
-
+print(nuevo)
 
 
