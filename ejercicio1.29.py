@@ -16,13 +16,13 @@
 
 #Fin
 nombre = input("Introduce tu nombre: ") 
-edad = input("Introduce tu edad: ") 
+edad = int(input("Introduce tu edad: ")) 
 
-while (edad <= 125) and  (edad >= 0) : 
+while edad >= 125 and  edad >= 0 : 
     edad = input("Introduce tu edad: ") 
 
 
-if 125 - edad >= 0 and nombre : 
+if 125 - edad >= 0 : 
     años = 125 - edad 
     print(f"Te llamas {nombre} y tienes {edad} años, te quedan aún {años} años por cumplir") 
 else :
