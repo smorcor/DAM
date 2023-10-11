@@ -12,8 +12,8 @@ Inicio
     Mientras (edad >= 125) y (edad <= 0) hacer 
         Escribe "Introduce tu edad: "
         lee edad
-    
-
+diferencia = 125 - edad
+Lee "Te llamas "+nombre+" y tienes "+edad+" años, te quedan aún "+diferencia+" años por cumplir")
 
 Fin
 """
